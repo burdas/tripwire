@@ -5,7 +5,6 @@ check_directories:
 	cat no-directory.txt
 
 modify_config_file:
-	git clone https://github.com/burdas/tripwire
 	cp tripwire/twpol.txt /etc/tripwire/twpol.txt
 	twadmin -m P /etc/tripwire/twpol.txt
 
