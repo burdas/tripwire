@@ -5,7 +5,7 @@ check_directories:
 	cat no-directory.txt
 
 modify_config_file:
-	cp tripwire/twpol.txt /etc/tripwire/twpol.txt
+	cp ./tripwire/twpol.txt /etc/tripwire/twpol.txt
 	twadmin -m P /etc/tripwire/twpol.txt
 
 init:
