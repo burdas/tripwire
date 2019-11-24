@@ -281,7 +281,7 @@ SIG_HI        = 100 ;                # Critical files that are
 (
   rulename = "Regla web",
   severity= $(SIG_HI),
-  emailto = burdasparmarcos@gmail.com
+  emailto = burdaspar.110936@e.unavarra.es
 )
 {
         /var/www        -> $(SEC_CRIT);
